@@ -20,7 +20,7 @@ def update_driver():
 
     # extract the zip file
     with zipfile.ZipFile(latest_driver_zip, 'r') as zip_ref:
-         zip_ref.extractall("ChromeDriver_Path")  # you can specify the destination folder path here
+         zip_ref.extractall("../ChromeDriver_Path")  # you can specify the destination folder path here
     # delete the zip file downloaded above
     os.remove(latest_driver_zip)
 
@@ -37,17 +37,14 @@ def url_string(string):
     return output
 
 # To convert the post date to real datetime
-def date_to_calendar(job_posted_date):
-    job_posted_date = job_posted_date.replace("Posted\n", "")
-    if job_posted_date == "Posted 30+ days ago":
-        return None
-    elif "Posted" in job_posted_date:
-        job_posted_date = job_posted_date.replace("Posted ", "")
-        job_posted_date = job_posted_date.replace(" days ago", "")
-        return date.today() - timedelta(days=int(job_posted_date))
-    elif job_posted_date=="Just posted" or job_posted_date=="Today":
-        return date.today()
+def date_to_calendar(x):
+    lst = [int(s) for s in x.split() if s.isdigit()]
+    if not lst:
+        if "+" in x:
+            return None
+        else:
+            return date.today()
     else:
-        return "Error"
+        return date.today() - timedelta(days=int(lst[0]))
 
 
