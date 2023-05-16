@@ -1,8 +1,6 @@
 # Web Scraping Use Cases Repository
 Welcome to this unique GitHub repository, a treasure trove of real-world web scraping scenarios, complete with source code and Jupyter notebooks. This resource is designed to guide you through the various web scraping techniques applicable to a diverse range of use cases.
 
-![image](https://github.com/rfeers/webscraping/assets/83583953/1f1f74a8-a5f5-43de-8825-df97ceac73ff)
-
 Currently, the repository features code and Jupyter notebooks for scraping job listings from two renowned job search websites, Indeed and LinkedIn. Each of these projects leverages popular Python libraries, namely BeautifulSoup and Selenium, and gives you an essential understanding of HTML structure - a key ingredient for any web scraping endeavor.
 
 The beauty of these examples lies in their simplicity and modifiability. Each code is paired with a Jupyter notebook that simplifies the process into easily digestible portions, making it incredibly straightforward for you to follow and learn.
