@@ -15,7 +15,7 @@ Here's a snapshot of what you can discover in this repository:
 
 - [Web Scraping Basics:](https://medium.com/forcodesake/understanding-the-art-of-web-scraping-with-selenium-and-beautifulsoup-data-science-python-html-programming-bba0e3ae07ad) Delve into Jupyter notebooks covering fundamental concepts and techniques such as interpreting HTML structure and using BeautifulSoup and Selenium for web scraping.
 
-What's more, every piece of code in this repository comes with a complementary Medium article, offering a more detailed explanation and context. Simply follow the provided links in each folder to access these articles.
+What's more, every piece of code in this repository comes with a complementary Medium article, offering a more detailed explanation and context. Simply follow the provided links in each of the previous sections. 
 
 This repository is a growing entity, with plans for continual expansion. New scripts and notebooks will be added to include more websites and use cases, ultimately creating a comprehensive resource for anyone keen on mastering web scraping.
 
